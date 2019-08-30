@@ -15,6 +15,7 @@ public class MessageService {
 		messageList = new ArrayList<Message>();
 		messageList.add(m1);
 		messageList.add(m2);
+		messageList.add(m3);
 	}
 
 	public static List<Message> getAllMessages() {
@@ -40,6 +41,7 @@ public class MessageService {
 
 	public static Message addMessage(Message m) {
 		messageList.add(m);
+		System.out.println("addMessage called ");
 		return m;
 	}
 }

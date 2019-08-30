@@ -43,8 +43,10 @@ public class MessageResource {
     @POST
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public Message addMessage(Message message) {
-        return MessageService.addMessage(message);
+    public Message addMessage(String message) {
+       // return MessageService.addMessage(message);
+    	
+    	return null;
     }
     
 }
