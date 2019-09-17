@@ -4,7 +4,6 @@ pipeline {
         stage('build') {
             steps {
                 bat 'mvn --version'
-                sh 'Welcome to Jenkin by Rajesh sh'
                 bat 'Welcome to Jenkin by Rajesh bat'
             }
         }
